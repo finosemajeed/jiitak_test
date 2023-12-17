@@ -18,7 +18,7 @@ class Routes {
   static final routes = [
     GetPage(name: _Paths.MAIN_SCREEN, page: () => MainScreen()),
     GetPage(name: _Paths.SEARCH_SCREEN, page: () => const SearchScreen()),
-    GetPage(name: _Paths.WORKS_SCREEN, page: () => const WorksScreen()),
+    GetPage(name: _Paths.WORKS_SCREEN, page: () =>  WorksScreen()),
     GetPage(name: _Paths.SCAN_SCREEN, page: () => const ScanScreen()),
     GetPage(name: _Paths.CHAT_SCREEN, page: () => const ChatScreen()),
     GetPage(name: _Paths.PROFILE_SCREEN, page: () => const ProfileScreen()),

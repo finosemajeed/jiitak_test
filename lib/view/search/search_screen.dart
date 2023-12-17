@@ -136,6 +136,13 @@ class SearchScreen extends StatelessWidget {
           ],
         ),
       ),
+      floatingActionButton: FloatingActionButton(
+        onPressed: () {},
+        foregroundColor: AppColor.mainTextColor,
+        backgroundColor: Colors.white,
+        shape: const CircleBorder(),
+        child: const Icon(IconlyLight.location),
+      ),
     );
   }
 }

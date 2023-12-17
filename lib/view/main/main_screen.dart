@@ -44,7 +44,7 @@ class MainScreen extends StatelessWidget {
   List<Widget> _buildScreens() {
     return [
       const SearchScreen(),
-      const WorksScreen(),
+       WorksScreen(),
       const ScanScreen(),
       const ChatScreen(),
       const ProfileScreen()
